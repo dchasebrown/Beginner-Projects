@@ -7,7 +7,8 @@ def sum_for_target(numbers, target):
             index2 = numbers.index(num)
             return([index1, index2])
         else:
-            num_history.add(num)  
+            num_history.add(num)
+    return False
 
 index = sum_for_target([2,11,15,10,7,3], 9)
 print(index)
